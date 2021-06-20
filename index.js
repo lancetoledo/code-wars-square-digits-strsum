@@ -8,7 +8,7 @@ function squareDigits(num) {
     result = +str[i] * +str[i];
     output += result;
   }
-  return output;
+  return +output;
 }
 
 console.log(squareDigits(3212));
