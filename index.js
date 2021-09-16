@@ -11,7 +11,7 @@ function squareDigits(num) {
   let str = num.toString();
 
   for (let i = 0; i < str.length; i++) {
-    result = +str[i] * +str[i];
+    result = str[i] * str[i];
     output += result;
   }
   return +output;
